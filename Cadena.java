@@ -13,6 +13,7 @@ public class Cadena{
 	public static void main (String[] args){
 		
 		
+		System.out.println("Introduzca una palabra");
 		Scanner sc = new Scanner(System.in);
 		
 		String cadena = sc.next();
@@ -24,7 +25,7 @@ public class Cadena{
 		
 		
 		
-		System.out.printf("Empieza o termina la cadena %s por vocal? %b%n",cadena, empiezaOTerminaVocal(cadena));
+		System.out.printf("Empieza o termina la cadena %s por vocal minuscula? %b%n",cadena, empiezaOTerminaVocal(cadena));
 		
 		
 		System.out.printf("La cadena %s tiene %d vocales no acentuadas y minusculas%n",cadena, contarVocales(cadena));
@@ -33,7 +34,7 @@ public class Cadena{
 		System.out.printf("La cadena %s contiene una m, una n o una p? %b%n",cadena, contieneMNoP(cadena));
 		
 		
-		System.out.printf("La cadena %s empieza por vocal? %b%n",cadena, empiezaONoPorVocal(cadena));
+		System.out.printf("La cadena %s empieza por vocal minúscula? %b%n",cadena, empiezaONoPorVocal(cadena));
 	 
 		System.out.println("=================================");
 		
